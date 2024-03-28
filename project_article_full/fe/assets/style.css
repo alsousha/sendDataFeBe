@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	font-size: 2rem;
+	background-color: antiquewhite;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+div {
+	margin-bottom: 1rem;
+}
+
+form {
+	border: 1px solid;
+	padding: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 3rem;
+	gap: 1rem;
+}
+input{
+	border: navajowhite;
+	padding: 0 1rem;
+	border-radius: 1rem;
+}
+.msg .error {
+	color: red;
+}
+
+.msg .success {
+	color: green;
+}
+.d-none{
+	display: none;
+}
+.mt5{
+	margin-top: 5rem;
+}
+.mt2{
+	margin-top: 2rem;
+}
+a{
+	text-decoration: none;
+	color: brown;
+	display: block;
+}
+a:hover{
+	color: chocolate;
+	transition: all 0.3s;
+}
+.article {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-top: 3rem;
+	background-color: beige;
+  border-radius: 1rem;
+}
+button{
+	background-color: burlywood;
+	border: navajowhite;
+	padding: 1rem 2rem;
+	border-radius: 1.5rem;
+	color: brown;
+	font-weight: 800;
+	transition: all 0.3s;
+	cursor: pointer;
+	margin: 0 1rem;
+}
+button:hover{
+	transform: scale(1.08);
+	transition: all 0.3s;
+}
+.edit-btn{
+	background-color: transparent;
+	padding: 1rem;
+}
+.article__wrap p{
+	text-align: justify;
+}
+.top{
+	display: flex;
+	justify-content: space-between;
+}
+.edit-form input, .edit-form textarea{
+	width: 100%;
+	margin-bottom: 1rem;
+	font-size: 1.7rem;
+	padding: 1rem;
+
+}
+.edit-form textarea{
+	min-height: 60rem;
+}
