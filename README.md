@@ -13,4 +13,5 @@ article with the ability to edit and save data
 1. open terminal in VS Code
 2. go to folder be: cd be
 3. install npm: npm install
-4. open index.html in File Explorer
+4. run server: node index.js
+5. open index.html in File Explorer
